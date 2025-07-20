@@ -17,7 +17,7 @@
 @import url('./back-link.css');
 @import url('./footer.css');
 
-#loader {
+.loader {
   display: none;
   margin: 20px auto;
   width: 48px;
@@ -28,7 +28,7 @@
   animation: spin 1s linear infinite;
 }
 
-#loader:not(.hidden) {
+.loader:not(.hidden) {
   display: block;
 }
 .form {
